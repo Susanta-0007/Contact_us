@@ -2,6 +2,9 @@
     box-sizing: border-box;
     font-family: cursive;
 }
+input{
+    width: 20%;
+}
 .container {
     height: 100%;
     width: 100%;
@@ -16,7 +19,12 @@
     padding-right: 25px;
 }
 
-.form-control {
-    width: 400px;
-    margin: auto;
-}
+
+  @media only screen and (max-width: 767px) {
+    .container{
+        width: 80%;
+    }
+    .form-outline{
+        width: auto;
+    }
+    }
